@@ -1,0 +1,266 @@
+
+
+.about-banner {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.about-banner .overlay {
+    background: rgba(0, 0, 0, 0.5); 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.about-banner h1 {
+    font-size: 3rem;
+    margin: 0;
+    animation: slideInDown 1.5s ease-in-out;
+}
+
+
+@keyframes slideInDown {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+@keyframes slideInUp {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.know:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); 
+}
+.about-us{
+    color: white;
+}
+.mission-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #f9f9f9;
+    animation: fadeIn 1.9s ease-in-out forwards;
+    opacity: 0;
+  }
+  
+  .mission-content {
+    max-width: 600px;
+    animation: slideInLeft 1.5s ease-in-out forwards;
+    opacity: 0;
+  }
+  
+  .mission-content h2 {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  .mission-content p {
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .mission-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  .mission{
+    color:#2c3e50;
+    text-align: center;
+  }
+
+@keyframes slideInLeft {
+  0% {
+      transform: translateX(-100px);
+      opacity: 0;
+  }
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+  .why-us-section {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out forwards;
+    opacity: 0;
+  }
+  
+  .why-us-section h3 {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .why-us-section h3 span {
+    color: #e67e22;
+  }
+  
+  .why-us-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+  }
+  
+  .why-us-card {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: left;
+    transform: translateY(20px);
+    animation: slideInUp 1.2s ease-in-out forwards;
+    opacity: 0
+  }
+
+/* Delayed animation for each card */
+.why-us-card:nth-child(1) {
+  animation-delay: 0.5s;
+}
+.why-us-card:nth-child(2) {
+  animation-delay: 0.7s;
+}
+.why-us-card:nth-child(3) {
+  animation-delay: 0.9s;
+}
+.why-us-card:nth-child(4) {
+  animation-delay: 0.10s;
+}
+
+
+  
+  .why-us-card span {
+    color: #e67e22;
+    font-size: 1.5em;
+    margin-right: 10px;
+  }
+  
+  .why-us-card p {
+    font-size: 1em;
+    color: #555;
+  }
+  
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+@keyframes slideInUp {
+  0% {
+      transform: translateY(20px);
+      opacity: 0;
+  }
+  100% {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+.vision-section {
+  display: flex;
+  flex-direction: row-reverse; 
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px;
+  background-color: #f9f9f9;
+  animation: fadeIn 1.9s ease-in-out forwards;
+  opacity: 0;
+}
+
+.vision-content {
+  max-width: 600px;
+  animation: slideInLeft 1.5s ease-in-out forwards;
+  opacity: 0;
+  text-align: left; }
+
+.vision-content h2 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.vision-content p {
+  font-size: 1.1em;
+  margin: 10px 0;
+  color: #555;
+}
+
+.mission-image {
+  max-width: 400px;
+  height: auto;
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+.mission-image img {
+  max-width: 100%;
+  height: auto;
+  display: block; }
+
+.vision {
+  color: #2c3e50;
+  text-align: center;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}

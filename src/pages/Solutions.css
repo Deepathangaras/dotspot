@@ -1,0 +1,235 @@
+.solution-details {
+
+  width: 1000px !important;
+  margin: auto;
+  text-align: left;
+ 
+}
+
+.solution-image {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.solution-features, .solution-use-cases {
+  margin-top: 20px;
+}
+
+h4 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.feature-item, .use-case-item {
+  
+  padding: 10px;
+  margin: 5px 0;
+  
+}
+.p{
+  color: rgb(250, 245, 245);
+}
+.object{
+  color:rgb(250, 245, 245); 
+  text-align:center;}
+
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .product-banner-page{
+    
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      animation: fadeIn 2s ease-in-out forwards;
+      opacity: 0; 
+      
+ 
+  }
+  .product-banner-page1{
+    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    animation: fadeIn 2s ease-in-out forwards;
+    opacity: 0; 
+  
+
+}
+
+/* Banner Section */
+.product-banner-page {
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+
+  margin-bottom: 40px;
+}
+
+.product-banner-page h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-banner-page p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+/* Solution Title and Description */
+.solution-details h2 {
+  font-size: 2rem;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.solution-details h3 {
+  font-size: 1.6rem;
+  color: #555;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.solution-details p {
+  font-size: 1.1rem;
+  color: #666;
+  text-align: center;
+  margin: 15px 0;
+}
+
+/* Overview Section */
+.solution-overview h2 {
+  font-size: 1.8rem;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.solution-overview p {
+  font-size: 1.1rem;
+  color: #555;
+  margin: 0 20px;
+  text-align: center;
+}
+
+/* Features and Use Cases Sections */
+.solution-features,
+.solution-use-cases {
+  margin-top: 30px;
+}
+
+.solution-features h4,
+.solution-use-cases h4 {
+  font-size: 1.6rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.solution-features .feature-item,
+.solution-use-cases .use-case-item {
+  font-size: 1.1rem;
+  color: #555;
+  
+  padding: 10px;
+  border-radius: 8px;
+  margin: 5px 0;
+  text-align: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+/* Image */
+.solution-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* Tab Navigation */
+.tab-navigation {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 20px 0;
+  font-size: 1.1rem;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 10px 20px;
+  color: #333;
+  font-weight: 500;
+  position: relative;
+}
+
+.tab.active {
+  color: #ff9100;
+  font-weight: bold;
+}
+
+.tab.active::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: #0b0b0b;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* Tab Content */
+.tab-content {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.tab-content h4 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.feature-item,
+.use-case-item {
+  font-size: 1.1rem;
+  color: #555;
+  padding: 8px;
+  
+  border-radius: 5px;
+  margin: 5px 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+ 
+}
